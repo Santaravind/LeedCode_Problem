@@ -19,13 +19,18 @@ public class Sorted_Array_Roted {
 //    }
     public static void main(String args[]){
 
-        int arr[]={12,13,14,15,0,2,3,4,5};
-
+//        int arr[]={12,13,14,15,0,2,3,4,5};
+//      int arr[]={11,13,15,17};
+      int arr[]={2,1};
         int start =0;
         int end=arr.length-1;
         int n=arr.length;
         System.out.println(n);
         int x=0,y=0;
+        if(arr[start]<arr[end]){
+            System.out.println(arr[start]);
+            return;
+        }
         while (start<=end){
             int mid=start+(end-start)/2;
             int pre=(mid+n-1)%n;
