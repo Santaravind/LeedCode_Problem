@@ -2,8 +2,9 @@ package DSA.BinarySearch;
 
 public class Search_in_Rotated_Sorted_Array_33 {
     public static  void main(String args[]){
-        int arr[]={14,15,16,1,2,3,4,5};
-  int target =14;
+//        int arr[]={14,15,16,1,2,3,4,5};
+        int arr[]={4,5,6,7,0,1,2};
+  int target =0;
         int start =0;
         int end=arr.length-1;
 
