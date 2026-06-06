@@ -20,8 +20,7 @@ public class Twopower {
 //                   j++;
 //
 //               }
-
-              int n=num[i];
+               int n=num[i];
               if ((n&(n-1))==0){
                   System.out.print(n+" ");
                   count ++;
