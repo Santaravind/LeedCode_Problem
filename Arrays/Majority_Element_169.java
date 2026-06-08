@@ -1,6 +1,8 @@
 package DSA.Arrays;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Majority_Element_169 {
     public static void main(String args[]){
@@ -36,7 +38,6 @@ public class Majority_Element_169 {
 //        }
 //
 //        return candidate;
-
         System.out.println(result);
     }
 }
