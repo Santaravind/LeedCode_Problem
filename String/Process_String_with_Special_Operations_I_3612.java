@@ -36,6 +36,7 @@ public class Process_String_with_Special_Operations_I_3612 {
             }
         }
 
+
         System.out.println(sb.toString());
     }
 }
