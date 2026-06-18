@@ -1,6 +1,9 @@
 package DSA.Arrays;
 
 
+import java.util.HashMap;
+import java.util.Map;
+
 /*this code work only when two number is appear in exactly ones
  and others appear twice in the array
  */
@@ -28,5 +31,26 @@ public class Unique_Element_II {
 
         System.out.println("First Unique: " + first_unique);
         System.out.println("Second Unique: " + second_unique);
+
+
+//        Map<Integer,Integer> map=new HashMap<>();
+//
+//        for (int n:arr){
+//            int count=0;
+//            if (map.containsValue(n)){
+//                count=map.get(n);
+//                count++;
+//                map.put(n,count);
+//            }else {
+//                map.put(n,count);
+//            }
+//
+//        }
+//        for (int num:map.keySet()){
+//            if (map.get(num)==0){
+//                System.out.print(num+ " ");
+//            }
+//        }
+
     }
 }
