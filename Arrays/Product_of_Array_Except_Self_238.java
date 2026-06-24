@@ -2,8 +2,8 @@ package DSA.Arrays;
 
 public class Product_of_Array_Except_Self_238 {
     public static void main(String[] args) {
-        int nums[]={1,2,3,4};
-//        int nums[]={-1,1,0,-3,3};
+//        int nums[]={1,2,3,4};
+        int nums[]={-1,1,0,-3,3};
 //        output =[24,12,8,6]
 
 //        Input: nums = [-1,1,0,-3,3]
@@ -11,7 +11,7 @@ public class Product_of_Array_Except_Self_238 {
 
         int ans[]=new int[nums.length];
 
-        int totalM=1;
+
         int prefix=1;
         int sufix=1;
 //        for (int v:nums){
