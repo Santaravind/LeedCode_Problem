@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class LargestSubString3 {
     public static  void main(String args[]){
-        String st="abcabcbb";
+        String st="abcabca";
 //        String st="pwwke";
 //        String st="bbbbb";
 //        String st="";
