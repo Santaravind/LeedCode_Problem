@@ -3,8 +3,8 @@ package DSA.Arrays;
 public class Best_Time_to_Buy_and_Sell_Stock_121 {
     public static void main(String args[]){
 //        int price[]={7,1,5,3,6,4};
-//        int price[]={7,6,4,3,1};
-        int price[]={1,2};
+        int price[]={7,6,4,3,1};
+//        int price[]={1,2};
         int result=maxProfit(price);
 
         System.out.println("Profit "+result);
