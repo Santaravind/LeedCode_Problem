@@ -1,7 +1,5 @@
-package DSA.HashMapQuestion;
+package DSA.Heap;
 
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class K_Closest_Points_to_Origin_973 {
